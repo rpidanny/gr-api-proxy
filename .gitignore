@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# example json
+lambda/event_example.json
+
+# zip
+*.zip
+
+# aws invoke response
+*.awslog
