@@ -11,7 +11,7 @@ GoodReads API Proxy implemented as an AWS Lambda function.
 
 - [AWS Lambda](https://aws.amazon.com/lambda)
 - [Goodreads API key](https://www.goodreads.com/api/keys)
-
+- [AWS API Gateway](https://aws.amazon.com/api-gateway)
 
 ## Installation
 
@@ -25,7 +25,8 @@ GoodReads API Proxy implemented as an AWS Lambda function.
 - Update `deploy.sh` with you function name
 - Add `GR_KEY` environment variable on your lambda function
 - Run `./deploy.sh`
-- Create an `API Gatrway` to trigger the lambda function
+- Create an `API Gateway` to trigger the lambda function
+- Setup CORS on your API gateway to restrict access
 
 ## Usage
 
